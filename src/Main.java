@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args){
         Greeter greeter = new Greeter();
-        greeter.greet();
-        greeter.greet();
+        String name = greeter.askName();
+        System.out.println("Hello, " + name + "!");
     }
 }
